@@ -1,0 +1,76 @@
+.user-submission {
+  color: #C9C9C9;
+  vertical-align: middle;
+  line-height: normal;
+  padding: 0 1em 0 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 0 0.5em 0.5em 0;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+  margin: 1em;
+  font-family: sans-serif;
+}
+
+.submitted-container {
+  padding-top: 10px;
+}
+
+.user-avatar {
+  width: 2em;
+  border-radius: 1em;
+}
+
+.product-description {
+  line-height: 1.4em;
+  margin: 0 20px;
+}
+
+.product-image {
+  width: 8em;
+  height: 7em;
+  border-radius: 0.2em;
+}
+
+.item-link {
+  color: #297BD9;
+  cursor: pointer;
+}
+
+.vote-img {
+  width: 2em;
+  height: 2em;
+}
+
+.vote-button {
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.vote-count {
+  display: inline;
+  font-weight: 700;
+  padding: 0 0.4em;
+}
+
+.vote-container {
+  padding-bottom: 0.8em;
+}
+
+.button-img {
+  background-image: url('./assets/caret-up.svg');
+  background-repeat: no-repeat;
+  background-size: 27px;
+  height: 25px;
+  padding: 0;
+  border: none;
+  width: 24px;
+}

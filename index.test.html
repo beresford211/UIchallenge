@@ -1,0 +1,26 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://unpkg.com/mocha-css" rel="stylesheet" />
+</head>
+
+<body>
+  <div id="mocha"></div>
+  <script src="node_modules/mocha/mocha.js"></script>
+  <script src="node_modules/chai/chai.js"></script>
+  <script src="/scripts/seed.js"></script>
+  <script type="module">
+    import * as utils from "/scripts/utils.js"
+    import * as votingFuncs from "/scripts/voting.js"
+    import * as scriptFuncs from "/scripts/script.js"
+    window.utils = utils;
+    window.votingFuncs = votingFuncs;
+    window.scriptFuncs = scriptFuncs;
+  </script>
+  <script>mocha.setup('bdd')</script>
+  <script defer src="test/test.js"></script>
+  <div id="root" style="visibility: hidden"></div>
+</body>
+
+</html>
